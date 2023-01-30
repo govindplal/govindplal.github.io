@@ -101,13 +101,13 @@ input[type="checkbox"]{
     content: "who i am";
 }
 .about .about-content .left{
-    width: 45%;
+    width: 25%;
 }
 .about .about-content .left img{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 .about .about-content .right{
     width: 55%;
@@ -116,14 +116,15 @@ input[type="checkbox"]{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 .about .about-content .right .text span{
     color: crimson;
 }
 .about .about-content .right p{
     text-align: justify;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 /*.about .about-content .right a{
@@ -521,16 +522,16 @@ input[type="checkbox"]{
 }
 .icons{
     list-style: none;
-  }
-  .icons li{
+}
+.icons li{
     height: 70px;
     width: 70px;
     display: inline-block;
     margin: 0 10px;
     cursor: pointer;
     position: relative;
-  }
-  .icons li:before{
+}
+.icons li:before{
     content: '';
     position: absolute;
     top: 0;
@@ -541,20 +542,20 @@ input[type="checkbox"]{
     border-radius: 10%;
     background: linear-gradient(45deg, #7b00e0, #ae31d9);
     transition: all 0.4s ease-in;
-  }
-  .icons li:hover:before{
+}
+.icons li:hover:before{
     transform: rotate(360deg);
     border-radius: 100%;
-  }
-  .icons li a span{
+}
+.icons li a span{
     font-size: 27px;
     line-height: 70px;
     color: #fff;
     transition: all 0.3s ease-out;
-  }
-  .icons li:hover a span{
+}
+.icons li:hover a span{
     transform: scale(1.2);
-  }
+}
 
 /* footer section styling */
 footer{
@@ -722,4 +723,5 @@ footer span a:hover{
         color: #fff;
         transition: all 0.3s ease-out;
     }
+
 }
