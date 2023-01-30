@@ -664,6 +664,20 @@ footer span a:hover{
     .projects .proj-content .card{
         width: 100%;
     }
+    .icons li{
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        margin: 0 10px;
+        cursor: pointer;
+        position: relative;
+    }
+    .icons li a span{
+        font-size: 27px;
+        line-height: 40px;
+        color: #fff;
+        transition: all 0.3s ease-out;
+    }
 }
 @media (max-width: 500px) {
     .home .home-content .text-2{
@@ -693,5 +707,19 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .icons li{
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        margin: 0 10px;
+        cursor: pointer;
+        position: relative;
+    }
+    .icons li a span{
+        font-size: 27px;
+        line-height: 40px;
+        color: #fff;
+        transition: all 0.3s ease-out;
     }
 }
